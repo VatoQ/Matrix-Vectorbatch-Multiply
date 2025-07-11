@@ -44,11 +44,6 @@ void calculate_average(
         uint runs,
         float gflops_total);
 
-int localpid(void)
-{
-    static int a[9] = { 0 };
-    return a[0];
-}
 
 int main()
 {
